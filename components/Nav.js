@@ -3,10 +3,10 @@ import data from "../utils/requests";
 
 const Nav = () => {
   const router = useRouter();
-
+  console.log(data);
   return (
     <nav className="relative">
-      <div className="flex flex-row px-10 sm:px-20 text-2xl whitespace-nowrap space-x-10 sm:space-x-20 overflow-x-scroll scrollbar-hide overflow-y-hidden">
+      <div className="flex flex-row px-10 sm:px-20 text-2xl whitespace-nowrap space-x-10 sm:space-x-20 overflow-x-scroll scrollbar-hide overflow-y-hidden py-2">
         {/* object.entries ne işe yarıyor? */}
         {Object.entries(data).map(([key, value]) => (
           <h2

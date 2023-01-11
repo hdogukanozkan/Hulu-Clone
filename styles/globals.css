@@ -3,6 +3,11 @@
 @tailwind utilities;
 
 @layer base {
+  html,
+  body,
+  #__next {
+    min-height: 100%;
+  }
   body {
     @apply bg-[#06202a] text-gray-300;
   }

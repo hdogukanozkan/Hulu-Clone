@@ -11,7 +11,7 @@ import {
 
 const header = () => {
   return (
-    <header className="flex flex-col sm:flex-row m-5 items-center h-auto justify-between">
+    <header className="flex flex-col sm:flex-row mx-5 py-3 items-center h-auto justify-between">
       <div className="flex flex-grow justify-evenly max-w-2xl">
         <HeaderItem Icon={HiOutlineHome} title="HOME" />
         <HeaderItem Icon={HiOutlineLightningBolt} title="TRENDING" />
