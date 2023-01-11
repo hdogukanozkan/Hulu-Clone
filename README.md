@@ -1,5 +1,5 @@
 <h1>Hulu Clone</h1>
-=> <a href="https://www.google.com"> Click to Clone DEMO. </a>
+=> <a href="https://hulu-clone-mauve-six.vercel.app/"> Click to Clone DEMO. </a>
 
 <h3>Features</h3>
 A Hulu Clone which created with NextJS. It fetches the data from TMDB (The Movie Database) API.
@@ -33,8 +33,13 @@ A Hulu Clone which created with NextJS. It fetches the data from TMDB (The Movie
 </li>
 
 <li>
-    Deploy the App LIVE.
+    ReactFlip Move
 </li>
+
+<li>
+    Deploy the App Vercel LIVE.
+</li>
+
 </ul>
 
 
